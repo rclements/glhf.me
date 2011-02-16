@@ -1,0 +1,46 @@
+html {
+  background: #1d3f5b url('../images/bg_dotted.png') repeat-x scroll top left;
+}
+#container {
+  background: url('../images/texture_bg.png') repeat-y scroll top left;
+  margin: auto; /* center in viewport */
+  width: 944px;
+  height: 806px;
+  position: relative;
+}
+.giant {
+  color: white;
+  font-size: 8em;
+}
+#footer {
+  color: #abc;
+  border-top: solid 2px #abc;
+  margin-top: 30px;
+}
+#footer-content {
+  border-top: solid 1px #abc;
+  width: 98%;
+  margin: auto;
+  margin-top: 3px;
+  padding-top: 8px;
+}
+#footer-left {
+  float: left;
+  width: 850px;
+}
+#footer-right {
+  float: right;
+}
+a, a:active, a:hover {
+  color: #abc;
+  text-decoration: dotted;
+}
+a:hover {
+  text-decoration: none;
+  border-bottom: dotted 1px #abc;
+}
+#again {
+  position: absolute;
+  top:0;
+  right:0;
+}
